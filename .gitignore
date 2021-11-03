@@ -1,0 +1,5 @@
+.vscode/
+*.temporary
+*.out
+temp*
+FEATURES.md
