@@ -1,6 +1,6 @@
 ## C++ Live Toolkit
 
-CLT (C++ Live Toolkit) is subset of tools that are very light in size, and maintained to help programmers in compiling and executing C++ code in the fly.
+**CLT** *(C++ Live Toolkit)* is subset of tools that are very light in<br> size, and maintained to help programmers in compiling and<br> executing C++ code in the fly.
 
 If you appriciate this project contribute to it by hitting ⭐️
 
@@ -9,14 +9,14 @@ If you appriciate this project contribute to it by hitting ⭐️
 Here are listed tools that are inside toolkit.<br>
 If you have idea related to this project, consider contributing.
 
-- **C++ Live Compile Repl (C++ LCP)**:<br>
-    Cpp fast and light in size repl program that helps to compile ideas in the file without creating useless files.
+- **C++ Live Compile Repl (C++ LCP)**:<br><br>
+    Cpp fast and light in size repl program that helps to compile ideas<br> in the file without creating useless files.
     <br>
-- **C++ Liver**:<br>
-    Live is a program that monitor changes on your files and compiles them and runs automatically, without any interaction.
+- **C++ Liver**:<br><br>
+    Live is a program that monitor changes on your files and compiles <br> them and runs automatically, without any interaction.
     <br>
 
-### C++ LCP
+### C++ LCP 
 
 To use repl compile `src/toolkit/repl.cpp`.
 After that, run it, you will get something like this:
