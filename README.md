@@ -18,12 +18,15 @@ If you have idea related to this project, consider contributing.
 
 ### C++ LCP 
 
-To use repl compile `src/toolkit/repl.cpp`.
+To use repl compile `src/toolkit/repl.cpp`.<br>
 After that, run it, you will get something like this:
 ```
 CLT C++ LRC Live Repl Compiler
 
-cpp >> 
+cpp >> std::cout << "Hi!" << "\n";
+Hi!
+
+cpp >> // thats how it works
 ```
 
 There are two directives included by deafult: 
@@ -48,11 +51,16 @@ Type C++ code and it will be compiled live fast and output file will be<br> auto
 
 ### C++ Liver
 
-To use live compile `src/toolkit/live.cpp`<br>
-Syntax of the live program is: `./name_of_executable name_of_file.cpp`<br>
+You need to compile: `src/toolkit/live.cpp` in order to use it<br>
+Syntax of the **C++ Liver** program is: `./liver name_of_file.cpp`<br>
 
 It will listen on changes in the file/files.<br>
 Liver will compile and run your code on every edit.<br>
 
 You can also include more files!<br>
-`./name_of_executable name_of_file_1.cpp name_of_file_2.cpp name_of_file_3.cpp name_of_file_4.cpp ... name_of_file_n.cpp`
+`./liver name_of_file_1.cpp name_of_file_2.cpp name_of_file_3.cpp name_of_file_4.cpp ... name_of_file_n.cpp`
+
+### Compilation Notes
+
+In order to compile checkout commands included in the `compile.txt`.<br>
+Every line of this file represents diffrent command subset for every tool.
