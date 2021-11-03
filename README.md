@@ -26,12 +26,12 @@ CLT C++ LRC Live Repl Compiler
 cpp >> 
 ```
 
-There are two directives included: 
+There are two directives included by deafult: 
 - `#include<iostream>`
 - `#include<cmath>`
 
 
-Just type your code into it and results will show up automatically.
+Type C++ code and it will be compiled live fast and output file will be<br> automatically executed.
 
 **Avaible commands**
 
