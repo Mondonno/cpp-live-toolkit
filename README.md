@@ -7,7 +7,7 @@ If you appriciate this project contribute to it by hitting ⭐️
 ### List of tools
 
 Here are listed tools that are inside toolkit.<br>
-If you have idea related to this project, consider contributing.
+*If you have idea related to this project, we will be happy if you contribute a new tool.*
 
 - **C++ Live Compile Repl (C++ LCP)**:<br><br>
     Cpp fast and light in size repl program that helps to compile ideas<br> in the file without creating useless files.
