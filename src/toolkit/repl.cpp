@@ -173,7 +173,9 @@ int main()
     currentWriteIndex = startTemplateInsertIndex;
 
     replStart();
+    
     signal(SIGINT,sigintHandler);
+    signal(EOF, sigintHandler);
 
     while (command != quitCommand && replRunning)
     {
