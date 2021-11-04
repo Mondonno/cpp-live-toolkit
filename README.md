@@ -60,6 +60,9 @@ Liver will compile and run your code on every edit.<br>
 You can also include more files!<br>
 `./liver name_of_file_1.cpp name_of_file_2.cpp name_of_file_3.cpp name_of_file_4.cpp ... name_of_file_n.cpp`
 
+**Dependenices**
+- [libsfwatch]()
+
 ### Compilation Notes
 
 In order to compile checkout commands included in the `compile.txt`.<br>

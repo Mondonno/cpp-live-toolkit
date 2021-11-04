@@ -1,4 +1,13 @@
 #include <iostream>
+#include <cstdio>
+#include <fstream>
+#include <memory>
+#include <stdexcept>
+#include <string>
+#include <array>
+
+using namespace std;
+
 #include "core.h"
 
 int executeWithCode(const char* cmd) {
