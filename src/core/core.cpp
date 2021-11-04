@@ -5,10 +5,9 @@
 #include <stdexcept>
 #include <string>
 #include <array>
+#include "core.h"
 
 using namespace std;
-
-#include "core.h"
 
 int executeWithCode(const char* cmd) {
     auto pipe = popen(cmd, "r"); // get rid of shared_ptr
