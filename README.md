@@ -1,8 +1,8 @@
 ## C++ Live Toolkit
 
-**CLT** *(C++ Live Toolkit)* is subset of tools that are very light in<br> size, and maintained to help programmers in compiling and<br> executing C++ code in the fly.
+> **Note** This is a POC (proof of concept) for more advenced tools.
 
-If you appriciate this project contribute to it by hitting ⭐️
+**CLT** *(C++ Live Toolkit)* is subset of tools that are very light in<br> size, and maintained to help programmers in compiling and<br> executing C++ code in the fly.
 
 ### List of tools
 

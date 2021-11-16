@@ -2,6 +2,7 @@
 #include <vector>
 #include <signal.h>
 #include <stdio.h>
+#include <fstream>
 #include "../core/core.h"
 
 using namespace std;
@@ -173,7 +174,7 @@ int main()
     currentWriteIndex = startTemplateInsertIndex;
 
     replStart();
-    
+
     signal(SIGINT,sigintHandler);
     signal(EOF, sigintHandler);
 
